@@ -1,0 +1,140 @@
+/* DONT DELETE THIS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+/* WRITE YOUR CODE BELOW */
+body {
+  border: solid 7px #00c7ac;
+  width: 350px;
+  height: 820px;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+}
+.page-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 20px 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.yellow-box {
+  width: 130px;
+  height: 130px;
+  min-height: 130px;
+  min-width: 130px;
+  border: solid 2px black;
+  border-radius: 15px;
+  background-color: #ffbc12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.now-play {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.track-spec {
+  padding: 10px 20px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 200%;
+  flex-wrap: wrap;
+}
+.track-singer {
+  font-weight: 700;
+}
+h2 {
+  font-size: 35px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.rectangle-btn {
+  border: solid 2px black;
+  border-radius: 15px;
+  width: 80px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom-width: 7px;
+  padding: 0px 50px;
+}
+.circle-btn {
+  border: solid 2px black;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-width: 7px;
+}
+
+.list {
+  display: flex;
+  margin: 20px 0px;
+  padding: 5px 0px;
+  align-items: center;
+}
+.list-btn {
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  border-radius: 15px;
+  border: solid 2px black;
+}
+.list-spec {
+  height: 50px;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.track-title {
+  font-weight: 800;
+  font-size: 20px;
+}
+.track-singer-thin {
+  font-weight: 500;
+  font-size: 15px;
+  opacity: 50%;
+}
+.track-lists {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.first-btn {
+  background-color: #f75a2a;
+}
+.second-btn {
+  background-color: #ff8abb;
+}
+.third-btn {
+  background-color: #1747e6;
+}
+.forth-btn {
+  background-color: #00c7ac;
+}
